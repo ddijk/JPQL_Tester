@@ -1,0 +1,386 @@
+[EL Finest]: jpa: 2013-10-14 21:46:00.507--ServerSession(18450577)--Thread(Thread[main,5,main])--Begin predeploying Persistence Unit JPACertJPA20Chap8PU; session file:/C:/Users/dickd/Documents/NetBeansProjects/JPACertJPA20Chap8/build/classes/_JPACertJPA20Chap8PU; state Initial; factoryCount 0
+[EL Finest]: properties: 2013-10-14 21:46:00.512--ServerSession(18450577)--Thread(Thread[main,5,main])--property=eclipselink.orm.throw.exceptions; default value=true
+[EL Finest]: properties: 2013-10-14 21:46:00.513--ServerSession(18450577)--Thread(Thread[main,5,main])--property=eclipselink.multitenant.tenants-share-emf; default value=true
+[EL Finest]: properties: 2013-10-14 21:46:00.513--ServerSession(18450577)--Thread(Thread[main,5,main])--property=eclipselink.multitenant.tenants-share-cache; default value=false
+[EL Finer]: metadata: 2013-10-14 21:46:00.524--ServerSession(18450577)--Thread(Thread[main,5,main])--Searching for default mapping file in file:/C:/Users/dickd/Documents/NetBeansProjects/JPACertJPA20Chap8/build/classes/ (There is no English translation for this message.)
+[EL Finer]: metadata: 2013-10-14 21:46:00.534--ServerSession(18450577)--Thread(Thread[main,5,main])--Searching for default mapping file in file:/C:/Users/dickd/Documents/NetBeansProjects/JPACertJPA20Chap8/build/classes/ (There is no English translation for this message.)
+[EL Config]: metadata: 2013-10-14 21:46:00.635--ServerSession(18450577)--Thread(Thread[main,5,main])--The access type for the persistent class [class jpacertjpa20chap8.entities.Project] is set to [PROPERTY].
+[EL Config]: metadata: 2013-10-14 21:46:00.649--ServerSession(18450577)--Thread(Thread[main,5,main])--The target entity (reference) class for the many to many mapping element [method getEmployees] is being defaulted to: class jpacertjpa20chap8.entities.Employee.
+[EL Config]: metadata: 2013-10-14 21:46:00.653--ServerSession(18450577)--Thread(Thread[main,5,main])--The access type for the persistent class [class jpacertjpa20chap8.entities.DesignProject] is set to [PROPERTY].
+[EL Config]: metadata: 2013-10-14 21:46:00.654--ServerSession(18450577)--Thread(Thread[main,5,main])--The access type for the persistent class [class jpacertjpa20chap8.entities.QualityProject] is set to [PROPERTY].
+[EL Config]: metadata: 2013-10-14 21:46:00.654--ServerSession(18450577)--Thread(Thread[main,5,main])--The access type for the persistent class [class jpacertjpa20chap8.entities.Employee] is set to [PROPERTY].
+[EL Config]: metadata: 2013-10-14 21:46:00.654--ServerSession(18450577)--Thread(Thread[main,5,main])--The target entity (reference) class for the many to many mapping element [method getProjects] is being defaulted to: class jpacertjpa20chap8.entities.Project.
+[EL Config]: metadata: 2013-10-14 21:46:00.655--ServerSession(18450577)--Thread(Thread[main,5,main])--The target entity (reference) class for the many to one mapping element [method getManager] is being defaulted to: class jpacertjpa20chap8.entities.Employee.
+[EL Config]: metadata: 2013-10-14 21:46:00.656--ServerSession(18450577)--Thread(Thread[main,5,main])--The target entity (reference) class for the one to many mapping element [method getPhones] is being defaulted to: class jpacertjpa20chap8.entities.Phone.
+[EL Config]: metadata: 2013-10-14 21:46:00.656--ServerSession(18450577)--Thread(Thread[main,5,main])--The target entity (reference) class for the many to one mapping element [method getDept] is being defaulted to: class jpacertjpa20chap8.entities.Department.
+[EL Config]: metadata: 2013-10-14 21:46:00.657--ServerSession(18450577)--Thread(Thread[main,5,main])--The access type for the persistent class [class jpacertjpa20chap8.entities.Phone] is set to [PROPERTY].
+[EL Config]: metadata: 2013-10-14 21:46:00.658--ServerSession(18450577)--Thread(Thread[main,5,main])--The target entity (reference) class for the many to one mapping element [method getOwner] is being defaulted to: class jpacertjpa20chap8.entities.Employee.
+[EL Config]: metadata: 2013-10-14 21:46:00.658--ServerSession(18450577)--Thread(Thread[main,5,main])--The access type for the persistent class [class jpacertjpa20chap8.entities.Department] is set to [PROPERTY].
+[EL Config]: metadata: 2013-10-14 21:46:00.658--ServerSession(18450577)--Thread(Thread[main,5,main])--The target entity (reference) class for the one to many mapping element [method getEmployees] is being defaulted to: class jpacertjpa20chap8.entities.Employee.
+[EL Config]: metadata: 2013-10-14 21:46:00.658--ServerSession(18450577)--Thread(Thread[main,5,main])--The access type for the persistent class [class jpacertjpa20chap8.entities.Address] is set to [PROPERTY].
+[EL Config]: metadata: 2013-10-14 21:46:00.659--ServerSession(18450577)--Thread(Thread[main,5,main])--The alias name for the entity class [class jpacertjpa20chap8.entities.DesignProject] is being defaulted to: DesignProject.
+[EL Config]: metadata: 2013-10-14 21:46:00.659--ServerSession(18450577)--Thread(Thread[main,5,main])--The alias name for the entity class [class jpacertjpa20chap8.entities.Project] is being defaulted to: Project.
+[EL Config]: metadata: 2013-10-14 21:46:00.662--ServerSession(18450577)--Thread(Thread[main,5,main])--The table name for entity [class jpacertjpa20chap8.entities.Project] is being defaulted to: PROJECT.
+[EL Config]: metadata: 2013-10-14 21:46:00.674--ServerSession(18450577)--Thread(Thread[main,5,main])--The column name for element [getId] is being defaulted to: ID.
+[EL Config]: metadata: 2013-10-14 21:46:00.676--ServerSession(18450577)--Thread(Thread[main,5,main])--The column name for element [getName] is being defaulted to: NAME.
+[EL Config]: metadata: 2013-10-14 21:46:00.678--ServerSession(18450577)--Thread(Thread[main,5,main])--The discriminator column name for the root inheritance class [jpacertjpa20chap8.entities.Project] is being defaulted to: DTYPE.
+[EL Config]: metadata: 2013-10-14 21:46:00.678--ServerSession(18450577)--Thread(Thread[main,5,main])--The alias name for the entity class [class jpacertjpa20chap8.entities.QualityProject] is being defaulted to: QualityProject.
+[EL Config]: metadata: 2013-10-14 21:46:00.678--ServerSession(18450577)--Thread(Thread[main,5,main])--The alias name for the entity class [class jpacertjpa20chap8.entities.Employee] is being defaulted to: Employee.
+[EL Config]: metadata: 2013-10-14 21:46:00.678--ServerSession(18450577)--Thread(Thread[main,5,main])--The table name for entity [class jpacertjpa20chap8.entities.Employee] is being defaulted to: EMPLOYEE.
+[EL Config]: metadata: 2013-10-14 21:46:00.678--ServerSession(18450577)--Thread(Thread[main,5,main])--The column name for element [getId] is being defaulted to: ID.
+[EL Config]: metadata: 2013-10-14 21:46:00.679--ServerSession(18450577)--Thread(Thread[main,5,main])--The column name for element [getId] is being defaulted to: ID.
+[EL Config]: metadata: 2013-10-14 21:46:00.679--ServerSession(18450577)--Thread(Thread[main,5,main])--The column name for element [getZip] is being defaulted to: ZIP.
+[EL Config]: metadata: 2013-10-14 21:46:00.679--ServerSession(18450577)--Thread(Thread[main,5,main])--The column name for element [getStreet] is being defaulted to: STREET.
+[EL Config]: metadata: 2013-10-14 21:46:00.679--ServerSession(18450577)--Thread(Thread[main,5,main])--The column name for element [getState] is being defaulted to: STATE.
+[EL Config]: metadata: 2013-10-14 21:46:00.679--ServerSession(18450577)--Thread(Thread[main,5,main])--The column name for element [getCity] is being defaulted to: CITY.
+[EL Config]: metadata: 2013-10-14 21:46:00.679--ServerSession(18450577)--Thread(Thread[main,5,main])--The column name for element [getName] is being defaulted to: NAME.
+[EL Config]: metadata: 2013-10-14 21:46:00.679--ServerSession(18450577)--Thread(Thread[main,5,main])--The column name for element [getSalary] is being defaulted to: SALARY.
+[EL Config]: metadata: 2013-10-14 21:46:00.68--ServerSession(18450577)--Thread(Thread[main,5,main])--The alias name for the entity class [class jpacertjpa20chap8.entities.Phone] is being defaulted to: Phone.
+[EL Config]: metadata: 2013-10-14 21:46:00.68--ServerSession(18450577)--Thread(Thread[main,5,main])--The table name for entity [class jpacertjpa20chap8.entities.Phone] is being defaulted to: PHONE.
+[EL Config]: metadata: 2013-10-14 21:46:00.68--ServerSession(18450577)--Thread(Thread[main,5,main])--The column name for element [getId] is being defaulted to: ID.
+[EL Config]: metadata: 2013-10-14 21:46:00.68--ServerSession(18450577)--Thread(Thread[main,5,main])--The column name for element [getNumber] is being defaulted to: NUMBER.
+[EL Config]: metadata: 2013-10-14 21:46:00.68--ServerSession(18450577)--Thread(Thread[main,5,main])--The column name for element [getType] is being defaulted to: TYPE.
+[EL Config]: metadata: 2013-10-14 21:46:00.68--ServerSession(18450577)--Thread(Thread[main,5,main])--The alias name for the entity class [class jpacertjpa20chap8.entities.Department] is being defaulted to: Department.
+[EL Config]: metadata: 2013-10-14 21:46:00.68--ServerSession(18450577)--Thread(Thread[main,5,main])--The table name for entity [class jpacertjpa20chap8.entities.Department] is being defaulted to: DEPARTMENT.
+[EL Config]: metadata: 2013-10-14 21:46:00.681--ServerSession(18450577)--Thread(Thread[main,5,main])--The column name for element [getId] is being defaulted to: ID.
+[EL Config]: metadata: 2013-10-14 21:46:00.681--ServerSession(18450577)--Thread(Thread[main,5,main])--The column name for element [getName] is being defaulted to: NAME.
+[EL Config]: metadata: 2013-10-14 21:46:00.701--ServerSession(18450577)--Thread(Thread[main,5,main])--The join table name for the many to many mapping [method getEmployees] is being defaulted to: PROJECT_EMPLOYEE.
+[EL Config]: metadata: 2013-10-14 21:46:00.702--ServerSession(18450577)--Thread(Thread[main,5,main])--The source primary key column name for the many to many mapping [method getEmployees] is being defaulted to: ID.
+[EL Config]: metadata: 2013-10-14 21:46:00.702--ServerSession(18450577)--Thread(Thread[main,5,main])--The source foreign key column name for the many to many mapping [getEmployees] is being defaulted to: Project_ID.
+[EL Config]: metadata: 2013-10-14 21:46:00.702--ServerSession(18450577)--Thread(Thread[main,5,main])--The target primary key column name for the many to many mapping [method getEmployees] is being defaulted to: ID.
+[EL Config]: metadata: 2013-10-14 21:46:00.702--ServerSession(18450577)--Thread(Thread[main,5,main])--The target foreign key column name for the many to many mapping [getEmployees] is being defaulted to: employees_ID.
+[EL Config]: metadata: 2013-10-14 21:46:00.702--ServerSession(18450577)--Thread(Thread[main,5,main])--The join table name for the many to many mapping [method getProjects] is being defaulted to: EMPLOYEE_PROJECT.
+[EL Config]: metadata: 2013-10-14 21:46:00.703--ServerSession(18450577)--Thread(Thread[main,5,main])--The source primary key column name for the many to many mapping [method getProjects] is being defaulted to: ID.
+[EL Config]: metadata: 2013-10-14 21:46:00.703--ServerSession(18450577)--Thread(Thread[main,5,main])--The source foreign key column name for the many to many mapping [getProjects] is being defaulted to: Employee_ID.
+[EL Config]: metadata: 2013-10-14 21:46:00.703--ServerSession(18450577)--Thread(Thread[main,5,main])--The target primary key column name for the many to many mapping [method getProjects] is being defaulted to: ID.
+[EL Config]: metadata: 2013-10-14 21:46:00.703--ServerSession(18450577)--Thread(Thread[main,5,main])--The target foreign key column name for the many to many mapping [getProjects] is being defaulted to: projects_ID.
+[EL Config]: metadata: 2013-10-14 21:46:00.709--ServerSession(18450577)--Thread(Thread[main,5,main])--The primary key column name for the mapping element [method getManager] is being defaulted to: ID.
+[EL Config]: metadata: 2013-10-14 21:46:00.709--ServerSession(18450577)--Thread(Thread[main,5,main])--The foreign key column name for the mapping element [getManager] is being defaulted to: MANAGER_ID.
+[EL Config]: metadata: 2013-10-14 21:46:00.709--ServerSession(18450577)--Thread(Thread[main,5,main])--The primary key column name for the mapping element [method getDept] is being defaulted to: ID.
+[EL Config]: metadata: 2013-10-14 21:46:00.71--ServerSession(18450577)--Thread(Thread[main,5,main])--The foreign key column name for the mapping element [getDept] is being defaulted to: DEPT_ID.
+[EL Config]: metadata: 2013-10-14 21:46:00.71--ServerSession(18450577)--Thread(Thread[main,5,main])--The primary key column name for the mapping element [method getOwner] is being defaulted to: ID.
+[EL Config]: metadata: 2013-10-14 21:46:00.71--ServerSession(18450577)--Thread(Thread[main,5,main])--The foreign key column name for the mapping element [getOwner] is being defaulted to: OWNER_ID.
+[EL Finest]: jpa: 2013-10-14 21:46:00.717--ServerSession(18450577)--Thread(Thread[main,5,main])--End predeploying Persistence Unit JPACertJPA20Chap8PU; session file:/C:/Users/dickd/Documents/NetBeansProjects/JPACertJPA20Chap8/build/classes/_JPACertJPA20Chap8PU; state Predeployed; factoryCount 0
+[EL Finest]: jpa: 2013-10-14 21:46:00.717--ServerSession(18450577)--Thread(Thread[main,5,main])--Begin predeploying Persistence Unit JPACertJPA20Chap8PU; session file:/C:/Users/dickd/Documents/NetBeansProjects/JPACertJPA20Chap8/build/classes/_JPACertJPA20Chap8PU; state Predeployed; factoryCount 0
+[EL Finest]: jpa: 2013-10-14 21:46:00.717--ServerSession(18450577)--Thread(Thread[main,5,main])--End predeploying Persistence Unit JPACertJPA20Chap8PU; session file:/C:/Users/dickd/Documents/NetBeansProjects/JPACertJPA20Chap8/build/classes/_JPACertJPA20Chap8PU; state Predeployed; factoryCount 1
+[EL Finest]: jpa: 2013-10-14 21:46:00.724--ServerSession(18450577)--Thread(Thread[main,5,main])--Begin deploying Persistence Unit JPACertJPA20Chap8PU; session file:/C:/Users/dickd/Documents/NetBeansProjects/JPACertJPA20Chap8/build/classes/_JPACertJPA20Chap8PU; state Predeployed; factoryCount 1
+[EL Finer]: 2013-10-14 21:46:00.732--ServerSession(18450577)--Thread(Thread[main,5,main])--Could not initialize Validation Factory. Encountered following exception: java.lang.NoClassDefFoundError: javax/validation/Validation
+[EL Finest]: properties: 2013-10-14 21:46:00.734--ServerSession(18450577)--Thread(Thread[main,5,main])--property=eclipselink.logging.level; value=FINEST; translated value=FINEST
+[EL Finest]: properties: 2013-10-14 21:46:00.734--ServerSession(18450577)--Thread(Thread[main,5,main])--property=eclipselink.logging.level.sql; value=FINE; translated value=FINE
+[EL Finest]: properties: 2013-10-14 21:46:00.734--ServerSession(18450577)--Thread(Thread[main,5,main])--property=eclipselink.logging.level; value=FINEST; translated value=FINEST
+[EL Finest]: properties: 2013-10-14 21:46:00.734--ServerSession(18450577)--Thread(Thread[main,5,main])--property=eclipselink.logging.level.sql; value=FINE; translated value=FINE
+[EL Finest]: properties: 2013-10-14 21:46:00.735--ServerSession(18450577)--Thread(Thread[main,5,main])--property=javax.persistence.jdbc.user; value=dick
+[EL Finest]: properties: 2013-10-14 21:46:00.735--ServerSession(18450577)--Thread(Thread[main,5,main])--property=javax.persistence.jdbc.password; value=xxxxxx
+[EL Finest]: properties: 2013-10-14 21:46:01.152--ServerSession(18450577)--Thread(Thread[main,5,main])--property=javax.persistence.jdbc.driver; value=org.apache.derby.jdbc.ClientDriver
+[EL Finest]: properties: 2013-10-14 21:46:01.152--ServerSession(18450577)--Thread(Thread[main,5,main])--property=javax.persistence.jdbc.url; value=jdbc:derby://localhost:1527/jpa20chapter8
+[EL Info]: 2013-10-14 21:46:01.153--ServerSession(18450577)--Thread(Thread[main,5,main])--EclipseLink, version: Eclipse Persistence Services - 2.5.0.v20130507-3faac2b
+[EL Finest]: dbPlatformHelper_regExprDbPlatform: 2013-10-14 21:46:01.25--Thread(Thread[main,5,main])--(?i)oracle.*12 (There is no English translation for this message.)
+[EL Finest]: dbPlatformHelper_regExprDbPlatform: 2013-10-14 21:46:01.25--Thread(Thread[main,5,main])--(?i)oracle.*11 (There is no English translation for this message.)
+[EL Finest]: dbPlatformHelper_regExprDbPlatform: 2013-10-14 21:46:01.251--Thread(Thread[main,5,main])--(?i)oracle.*10 (There is no English translation for this message.)
+[EL Finest]: dbPlatformHelper_regExprDbPlatform: 2013-10-14 21:46:01.251--Thread(Thread[main,5,main])--(?i)oracle.*9 (There is no English translation for this message.)
+[EL Finest]: dbPlatformHelper_regExprDbPlatform: 2013-10-14 21:46:01.251--Thread(Thread[main,5,main])--(?i)oracle.* (There is no English translation for this message.)
+[EL Finest]: dbPlatformHelper_regExprDbPlatform: 2013-10-14 21:46:01.251--Thread(Thread[main,5,main])--SQL\ Anywhere.* (There is no English translation for this message.)
+[EL Finest]: dbPlatformHelper_regExprDbPlatform: 2013-10-14 21:46:01.251--Thread(Thread[main,5,main])--(?i)(sybase.*)|(adaptive\ server\ enterprise.*)|(SQL\ Server.*) (There is no English translation for this message.)
+[EL Finest]: dbPlatformHelper_regExprDbPlatform: 2013-10-14 21:46:01.252--Thread(Thread[main,5,main])--(?i)microsoft.* (There is no English translation for this message.)
+[EL Finest]: dbPlatformHelper_regExprDbPlatform: 2013-10-14 21:46:01.252--Thread(Thread[main,5,main])--(?i).*derby.* (There is no English translation for this message.)
+[EL Fine]: connection: 2013-10-14 21:46:01.252--Thread(Thread[main,5,main])--Detected database platform: org.eclipse.persistence.platform.database.JavaDBPlatform
+[EL Config]: connection: 2013-10-14 21:46:01.26--ServerSession(18450577)--Connection(14069849)--Thread(Thread[main,5,main])--connecting(DatabaseLogin(
+	platform=>JavaDBPlatform
+	user name=> "dick"
+	datasource URL=> "jdbc:derby://localhost:1527/jpa20chapter8"
+))
+[EL Config]: connection: 2013-10-14 21:46:01.266--ServerSession(18450577)--Connection(13878877)--Thread(Thread[main,5,main])--Connected: jdbc:derby://localhost:1527/jpa20chapter8
+	User: dick
+	Database: Apache Derby  Version: 10.8.1.2 - (1095077)
+	Driver: Apache Derby Network Client JDBC Driver  Version: 10.8.1.2 - (1095077)
+[EL Finest]: connection: 2013-10-14 21:46:01.266--ServerSession(18450577)--Connection(13878877)--Thread(Thread[main,5,main])--Connection acquired from connection pool [default].
+[EL Finest]: connection: 2013-10-14 21:46:01.266--ServerSession(18450577)--Connection(13878877)--Thread(Thread[main,5,main])--Connection released to connection pool [default].
+[EL Finest]: sequencing: 2013-10-14 21:46:01.273--ServerSession(18450577)--Thread(Thread[main,5,main])--sequencing connected, state is Preallocation_Transaction_NoAccessor_State
+[EL Finest]: sequencing: 2013-10-14 21:46:01.273--ServerSession(18450577)--Thread(Thread[main,5,main])--sequence SEQUENCE: preallocation size 50
+[EL Finest]: sequencing: 2013-10-14 21:46:01.273--ServerSession(18450577)--Thread(Thread[main,5,main])--sequence SEQ_GEN: preallocation size 50
+[EL Info]: connection: 2013-10-14 21:46:01.308--ServerSession(18450577)--Thread(Thread[main,5,main])--file:/C:/Users/dickd/Documents/NetBeansProjects/JPACertJPA20Chap8/build/classes/_JPACertJPA20Chap8PU login successful
+[EL Finest]: query: 2013-10-14 21:46:01.32--ServerSession(18450577)--Thread(Thread[main,5,main])--Execute query DataModifyQuery(sql="ALTER TABLE EMPLOYEE DROP CONSTRAINT EMPLOYEEMANAGER_ID")
+[EL Finest]: connection: 2013-10-14 21:46:01.321--ServerSession(18450577)--Connection(13878877)--Thread(Thread[main,5,main])--Connection acquired from connection pool [default].
+[EL Fine]: sql: 2013-10-14 21:46:01.321--ServerSession(18450577)--Connection(13878877)--Thread(Thread[main,5,main])--ALTER TABLE EMPLOYEE DROP CONSTRAINT EMPLOYEEMANAGER_ID
+[EL Finest]: connection: 2013-10-14 21:46:01.346--ServerSession(18450577)--Connection(13878877)--Thread(Thread[main,5,main])--Connection released to connection pool [default].
+[EL Finest]: query: 2013-10-14 21:46:01.346--ServerSession(18450577)--Thread(Thread[main,5,main])--Execute query DataModifyQuery(sql="ALTER TABLE EMPLOYEE DROP CONSTRAINT EMPLOYEE_DEPT_ID")
+[EL Finest]: connection: 2013-10-14 21:46:01.346--ServerSession(18450577)--Connection(13878877)--Thread(Thread[main,5,main])--Connection acquired from connection pool [default].
+[EL Fine]: sql: 2013-10-14 21:46:01.346--ServerSession(18450577)--Connection(13878877)--Thread(Thread[main,5,main])--ALTER TABLE EMPLOYEE DROP CONSTRAINT EMPLOYEE_DEPT_ID
+[EL Finest]: connection: 2013-10-14 21:46:01.358--ServerSession(18450577)--Connection(13878877)--Thread(Thread[main,5,main])--Connection released to connection pool [default].
+[EL Finest]: query: 2013-10-14 21:46:01.358--ServerSession(18450577)--Thread(Thread[main,5,main])--Execute query DataModifyQuery(sql="ALTER TABLE PHONE DROP CONSTRAINT FK_PHONE_OWNER_ID")
+[EL Finest]: connection: 2013-10-14 21:46:01.358--ServerSession(18450577)--Connection(13878877)--Thread(Thread[main,5,main])--Connection acquired from connection pool [default].
+[EL Fine]: sql: 2013-10-14 21:46:01.358--ServerSession(18450577)--Connection(13878877)--Thread(Thread[main,5,main])--ALTER TABLE PHONE DROP CONSTRAINT FK_PHONE_OWNER_ID
+[EL Finest]: connection: 2013-10-14 21:46:01.368--ServerSession(18450577)--Connection(13878877)--Thread(Thread[main,5,main])--Connection released to connection pool [default].
+[EL Finest]: query: 2013-10-14 21:46:01.369--ServerSession(18450577)--Thread(Thread[main,5,main])--Execute query DataModifyQuery(sql="ALTER TABLE EMPLOYEE_PROJECT DROP CONSTRAINT MPLYPROJECTmplyeID")
+[EL Finest]: connection: 2013-10-14 21:46:01.369--ServerSession(18450577)--Connection(13878877)--Thread(Thread[main,5,main])--Connection acquired from connection pool [default].
+[EL Fine]: sql: 2013-10-14 21:46:01.369--ServerSession(18450577)--Connection(13878877)--Thread(Thread[main,5,main])--ALTER TABLE EMPLOYEE_PROJECT DROP CONSTRAINT MPLYPROJECTmplyeID
+[EL Finest]: connection: 2013-10-14 21:46:01.381--ServerSession(18450577)--Connection(13878877)--Thread(Thread[main,5,main])--Connection released to connection pool [default].
+[EL Finest]: query: 2013-10-14 21:46:01.381--ServerSession(18450577)--Thread(Thread[main,5,main])--Execute query DataModifyQuery(sql="ALTER TABLE EMPLOYEE_PROJECT DROP CONSTRAINT MPLYPROJECTprjctsD")
+[EL Finest]: connection: 2013-10-14 21:46:01.381--ServerSession(18450577)--Connection(13878877)--Thread(Thread[main,5,main])--Connection acquired from connection pool [default].
+[EL Fine]: sql: 2013-10-14 21:46:01.382--ServerSession(18450577)--Connection(13878877)--Thread(Thread[main,5,main])--ALTER TABLE EMPLOYEE_PROJECT DROP CONSTRAINT MPLYPROJECTprjctsD
+[EL Finest]: connection: 2013-10-14 21:46:01.392--ServerSession(18450577)--Connection(13878877)--Thread(Thread[main,5,main])--Connection released to connection pool [default].
+[EL Finest]: query: 2013-10-14 21:46:01.393--ServerSession(18450577)--Thread(Thread[main,5,main])--Execute query DataModifyQuery(sql="ALTER TABLE PROJECT_EMPLOYEE DROP CONSTRAINT PRJCTMPLOYEEPrjctD")
+[EL Finest]: connection: 2013-10-14 21:46:01.393--ServerSession(18450577)--Connection(13878877)--Thread(Thread[main,5,main])--Connection acquired from connection pool [default].
+[EL Fine]: sql: 2013-10-14 21:46:01.393--ServerSession(18450577)--Connection(13878877)--Thread(Thread[main,5,main])--ALTER TABLE PROJECT_EMPLOYEE DROP CONSTRAINT PRJCTMPLOYEEPrjctD
+[EL Finest]: connection: 2013-10-14 21:46:01.404--ServerSession(18450577)--Connection(13878877)--Thread(Thread[main,5,main])--Connection released to connection pool [default].
+[EL Finest]: query: 2013-10-14 21:46:01.404--ServerSession(18450577)--Thread(Thread[main,5,main])--Execute query DataModifyQuery(sql="ALTER TABLE PROJECT_EMPLOYEE DROP CONSTRAINT PRJCTMPLOYEEmplysD")
+[EL Finest]: connection: 2013-10-14 21:46:01.404--ServerSession(18450577)--Connection(13878877)--Thread(Thread[main,5,main])--Connection acquired from connection pool [default].
+[EL Fine]: sql: 2013-10-14 21:46:01.405--ServerSession(18450577)--Connection(13878877)--Thread(Thread[main,5,main])--ALTER TABLE PROJECT_EMPLOYEE DROP CONSTRAINT PRJCTMPLOYEEmplysD
+[EL Finest]: connection: 2013-10-14 21:46:01.415--ServerSession(18450577)--Connection(13878877)--Thread(Thread[main,5,main])--Connection released to connection pool [default].
+[EL Finest]: query: 2013-10-14 21:46:01.416--ServerSession(18450577)--Thread(Thread[main,5,main])--Execute query DataModifyQuery(sql="DROP TABLE PROJECT")
+[EL Finest]: connection: 2013-10-14 21:46:01.416--ServerSession(18450577)--Connection(13878877)--Thread(Thread[main,5,main])--Connection acquired from connection pool [default].
+[EL Fine]: sql: 2013-10-14 21:46:01.416--ServerSession(18450577)--Connection(13878877)--Thread(Thread[main,5,main])--DROP TABLE PROJECT
+[EL Finest]: connection: 2013-10-14 21:46:01.429--ServerSession(18450577)--Connection(13878877)--Thread(Thread[main,5,main])--Connection released to connection pool [default].
+[EL Finest]: query: 2013-10-14 21:46:01.43--ServerSession(18450577)--Thread(Thread[main,5,main])--Execute query DataModifyQuery(sql="DROP TABLE EMPLOYEE")
+[EL Finest]: connection: 2013-10-14 21:46:01.43--ServerSession(18450577)--Connection(13878877)--Thread(Thread[main,5,main])--Connection acquired from connection pool [default].
+[EL Fine]: sql: 2013-10-14 21:46:01.43--ServerSession(18450577)--Connection(13878877)--Thread(Thread[main,5,main])--DROP TABLE EMPLOYEE
+[EL Fine]: sql: 2013-10-14 21:46:01.459--ServerSession(18450577)--Thread(Thread[main,5,main])--VALUES(1)
+[EL Finest]: connection: 2013-10-14 21:46:01.469--ServerSession(18450577)--Connection(13878877)--Thread(Thread[main,5,main])--Connection released to connection pool [default].
+[EL Warning]: 2013-10-14 21:46:01.469--ServerSession(18450577)--Thread(Thread[main,5,main])--Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.0.v20130507-3faac2b): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: java.sql.SQLException: Operation 'DROP CONSTRAINT' cannot be performed on object 'SQL131014213354520' because CONSTRAINT 'MPLYEMPLOYEEMPLYID' is dependent on that object.
+Error Code: -1
+Call: DROP TABLE EMPLOYEE
+Query: DataModifyQuery(sql="DROP TABLE EMPLOYEE")
+[EL Finest]: query: 2013-10-14 21:46:01.471--ServerSession(18450577)--Thread(Thread[main,5,main])--Execute query DataModifyQuery(sql="DROP TABLE PHONE")
+[EL Finest]: connection: 2013-10-14 21:46:01.471--ServerSession(18450577)--Connection(13878877)--Thread(Thread[main,5,main])--Connection acquired from connection pool [default].
+[EL Fine]: sql: 2013-10-14 21:46:01.471--ServerSession(18450577)--Connection(13878877)--Thread(Thread[main,5,main])--DROP TABLE PHONE
+[EL Finest]: connection: 2013-10-14 21:46:01.484--ServerSession(18450577)--Connection(13878877)--Thread(Thread[main,5,main])--Connection released to connection pool [default].
+[EL Finest]: query: 2013-10-14 21:46:01.484--ServerSession(18450577)--Thread(Thread[main,5,main])--Execute query DataModifyQuery(sql="DROP TABLE DEPARTMENT")
+[EL Finest]: connection: 2013-10-14 21:46:01.484--ServerSession(18450577)--Connection(13878877)--Thread(Thread[main,5,main])--Connection acquired from connection pool [default].
+[EL Fine]: sql: 2013-10-14 21:46:01.485--ServerSession(18450577)--Connection(13878877)--Thread(Thread[main,5,main])--DROP TABLE DEPARTMENT
+[EL Finest]: connection: 2013-10-14 21:46:01.502--ServerSession(18450577)--Connection(13878877)--Thread(Thread[main,5,main])--Connection released to connection pool [default].
+[EL Finest]: query: 2013-10-14 21:46:01.503--ServerSession(18450577)--Thread(Thread[main,5,main])--Execute query DataModifyQuery(sql="DROP TABLE EMPLOYEE_PROJECT")
+[EL Finest]: connection: 2013-10-14 21:46:01.503--ServerSession(18450577)--Connection(13878877)--Thread(Thread[main,5,main])--Connection acquired from connection pool [default].
+[EL Fine]: sql: 2013-10-14 21:46:01.503--ServerSession(18450577)--Connection(13878877)--Thread(Thread[main,5,main])--DROP TABLE EMPLOYEE_PROJECT
+[EL Finest]: connection: 2013-10-14 21:46:01.515--ServerSession(18450577)--Connection(13878877)--Thread(Thread[main,5,main])--Connection released to connection pool [default].
+[EL Finest]: query: 2013-10-14 21:46:01.516--ServerSession(18450577)--Thread(Thread[main,5,main])--Execute query DataModifyQuery(sql="DROP TABLE PROJECT_EMPLOYEE")
+[EL Finest]: connection: 2013-10-14 21:46:01.516--ServerSession(18450577)--Connection(13878877)--Thread(Thread[main,5,main])--Connection acquired from connection pool [default].
+[EL Fine]: sql: 2013-10-14 21:46:01.516--ServerSession(18450577)--Connection(13878877)--Thread(Thread[main,5,main])--DROP TABLE PROJECT_EMPLOYEE
+[EL Finest]: connection: 2013-10-14 21:46:01.53--ServerSession(18450577)--Connection(13878877)--Thread(Thread[main,5,main])--Connection released to connection pool [default].
+[EL Finest]: query: 2013-10-14 21:46:01.53--ServerSession(18450577)--Thread(Thread[main,5,main])--Execute query DataModifyQuery(sql="DROP TABLE EMPLOYEE")
+[EL Finest]: connection: 2013-10-14 21:46:01.53--ServerSession(18450577)--Connection(13878877)--Thread(Thread[main,5,main])--Connection acquired from connection pool [default].
+[EL Fine]: sql: 2013-10-14 21:46:01.531--ServerSession(18450577)--Connection(13878877)--Thread(Thread[main,5,main])--DROP TABLE EMPLOYEE
+[EL Fine]: sql: 2013-10-14 21:46:01.547--ServerSession(18450577)--Thread(Thread[main,5,main])--VALUES(1)
+[EL Finest]: connection: 2013-10-14 21:46:01.548--ServerSession(18450577)--Connection(13878877)--Thread(Thread[main,5,main])--Connection released to connection pool [default].
+[EL Warning]: 2013-10-14 21:46:01.548--ServerSession(18450577)--Thread(Thread[main,5,main])--Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.0.v20130507-3faac2b): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: java.sql.SQLException: Operation 'DROP CONSTRAINT' cannot be performed on object 'SQL131014213354520' because CONSTRAINT 'MPLYEMPLOYEEMPLYID' is dependent on that object.
+Error Code: -1
+Call: DROP TABLE EMPLOYEE
+Query: DataModifyQuery(sql="DROP TABLE EMPLOYEE")
+[EL Finest]: query: 2013-10-14 21:46:01.548--ServerSession(18450577)--Thread(Thread[main,5,main])--Execute query DataModifyQuery(sql="DROP TABLE EMPLOYEE")
+[EL Finest]: connection: 2013-10-14 21:46:01.548--ServerSession(18450577)--Connection(13878877)--Thread(Thread[main,5,main])--Connection acquired from connection pool [default].
+[EL Fine]: sql: 2013-10-14 21:46:01.548--ServerSession(18450577)--Connection(13878877)--Thread(Thread[main,5,main])--DROP TABLE EMPLOYEE
+[EL Fine]: sql: 2013-10-14 21:46:01.563--ServerSession(18450577)--Thread(Thread[main,5,main])--VALUES(1)
+[EL Finest]: connection: 2013-10-14 21:46:01.564--ServerSession(18450577)--Connection(13878877)--Thread(Thread[main,5,main])--Connection released to connection pool [default].
+[EL Warning]: 2013-10-14 21:46:01.564--ServerSession(18450577)--Thread(Thread[main,5,main])--Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.0.v20130507-3faac2b): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: java.sql.SQLException: Operation 'DROP CONSTRAINT' cannot be performed on object 'SQL131014213354520' because CONSTRAINT 'MPLYEMPLOYEEMPLYID' is dependent on that object.
+Error Code: -1
+Call: DROP TABLE EMPLOYEE
+Query: DataModifyQuery(sql="DROP TABLE EMPLOYEE")
+[EL Finest]: query: 2013-10-14 21:46:01.564--ServerSession(18450577)--Thread(Thread[main,5,main])--Execute query DataModifyQuery(sql="DROP TABLE EMPLOYEE")
+[EL Finest]: connection: 2013-10-14 21:46:01.564--ServerSession(18450577)--Connection(13878877)--Thread(Thread[main,5,main])--Connection acquired from connection pool [default].
+[EL Fine]: sql: 2013-10-14 21:46:01.565--ServerSession(18450577)--Connection(13878877)--Thread(Thread[main,5,main])--DROP TABLE EMPLOYEE
+[EL Fine]: sql: 2013-10-14 21:46:01.578--ServerSession(18450577)--Thread(Thread[main,5,main])--VALUES(1)
+[EL Finest]: connection: 2013-10-14 21:46:01.579--ServerSession(18450577)--Connection(13878877)--Thread(Thread[main,5,main])--Connection released to connection pool [default].
+[EL Warning]: 2013-10-14 21:46:01.579--ServerSession(18450577)--Thread(Thread[main,5,main])--Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.0.v20130507-3faac2b): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: java.sql.SQLException: Operation 'DROP CONSTRAINT' cannot be performed on object 'SQL131014213354520' because CONSTRAINT 'MPLYEMPLOYEEMPLYID' is dependent on that object.
+Error Code: -1
+Call: DROP TABLE EMPLOYEE
+Query: DataModifyQuery(sql="DROP TABLE EMPLOYEE")
+[EL Finest]: query: 2013-10-14 21:46:01.58--ServerSession(18450577)--Thread(Thread[main,5,main])--Execute query DataModifyQuery(sql="DROP TABLE EMPLOYEE")
+[EL Finest]: connection: 2013-10-14 21:46:01.58--ServerSession(18450577)--Connection(13878877)--Thread(Thread[main,5,main])--Connection acquired from connection pool [default].
+[EL Fine]: sql: 2013-10-14 21:46:01.58--ServerSession(18450577)--Connection(13878877)--Thread(Thread[main,5,main])--DROP TABLE EMPLOYEE
+[EL Fine]: sql: 2013-10-14 21:46:01.593--ServerSession(18450577)--Thread(Thread[main,5,main])--VALUES(1)
+[EL Finest]: connection: 2013-10-14 21:46:01.594--ServerSession(18450577)--Connection(13878877)--Thread(Thread[main,5,main])--Connection released to connection pool [default].
+[EL Warning]: 2013-10-14 21:46:01.594--ServerSession(18450577)--Thread(Thread[main,5,main])--Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.0.v20130507-3faac2b): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: java.sql.SQLException: Operation 'DROP CONSTRAINT' cannot be performed on object 'SQL131014213354520' because CONSTRAINT 'MPLYEMPLOYEEMPLYID' is dependent on that object.
+Error Code: -1
+Call: DROP TABLE EMPLOYEE
+Query: DataModifyQuery(sql="DROP TABLE EMPLOYEE")
+[EL Finest]: query: 2013-10-14 21:46:01.595--ServerSession(18450577)--Thread(Thread[main,5,main])--Execute query DataModifyQuery(sql="CREATE TABLE PROJECT (ID INTEGER NOT NULL, DTYPE VARCHAR(31), NAME VARCHAR(255), PRIMARY KEY (ID))")
+[EL Finest]: connection: 2013-10-14 21:46:01.595--ServerSession(18450577)--Connection(13878877)--Thread(Thread[main,5,main])--Connection acquired from connection pool [default].
+[EL Fine]: sql: 2013-10-14 21:46:01.595--ServerSession(18450577)--Connection(13878877)--Thread(Thread[main,5,main])--CREATE TABLE PROJECT (ID INTEGER NOT NULL, DTYPE VARCHAR(31), NAME VARCHAR(255), PRIMARY KEY (ID))
+[EL Finest]: connection: 2013-10-14 21:46:01.607--ServerSession(18450577)--Connection(13878877)--Thread(Thread[main,5,main])--Connection released to connection pool [default].
+[EL Finest]: ddl: 2013-10-14 21:46:01.607--Thread(Thread[main,5,main])--The table (PROJECT) is created.
+[EL Finest]: query: 2013-10-14 21:46:01.608--ServerSession(18450577)--Thread(Thread[main,5,main])--Execute query DataModifyQuery(sql="CREATE TABLE EMPLOYEE (ID BIGINT NOT NULL, NAME VARCHAR(255), SALARY BIGINT, CITY VARCHAR(255), STATE VARCHAR(255), STREET VARCHAR(255), ZIP VARCHAR(255), DEPT_ID INTEGER, MANAGER_ID BIGINT, PRIMARY KEY (ID))")
+[EL Finest]: connection: 2013-10-14 21:46:01.608--ServerSession(18450577)--Connection(13878877)--Thread(Thread[main,5,main])--Connection acquired from connection pool [default].
+[EL Fine]: sql: 2013-10-14 21:46:01.608--ServerSession(18450577)--Connection(13878877)--Thread(Thread[main,5,main])--CREATE TABLE EMPLOYEE (ID BIGINT NOT NULL, NAME VARCHAR(255), SALARY BIGINT, CITY VARCHAR(255), STATE VARCHAR(255), STREET VARCHAR(255), ZIP VARCHAR(255), DEPT_ID INTEGER, MANAGER_ID BIGINT, PRIMARY KEY (ID))
+[EL Fine]: sql: 2013-10-14 21:46:01.621--ServerSession(18450577)--Thread(Thread[main,5,main])--VALUES(1)
+[EL Finest]: connection: 2013-10-14 21:46:01.622--ServerSession(18450577)--Connection(13878877)--Thread(Thread[main,5,main])--Connection released to connection pool [default].
+[EL Warning]: 2013-10-14 21:46:01.622--ServerSession(18450577)--Thread(Thread[main,5,main])--Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.0.v20130507-3faac2b): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: java.sql.SQLException: Table/View 'EMPLOYEE' already exists in Schema 'DICK'.
+Error Code: -1
+Call: CREATE TABLE EMPLOYEE (ID BIGINT NOT NULL, NAME VARCHAR(255), SALARY BIGINT, CITY VARCHAR(255), STATE VARCHAR(255), STREET VARCHAR(255), ZIP VARCHAR(255), DEPT_ID INTEGER, MANAGER_ID BIGINT, PRIMARY KEY (ID))
+Query: DataModifyQuery(sql="CREATE TABLE EMPLOYEE (ID BIGINT NOT NULL, NAME VARCHAR(255), SALARY BIGINT, CITY VARCHAR(255), STATE VARCHAR(255), STREET VARCHAR(255), ZIP VARCHAR(255), DEPT_ID INTEGER, MANAGER_ID BIGINT, PRIMARY KEY (ID))")
+[EL Finest]: ddl: 2013-10-14 21:46:01.623--Thread(Thread[main,5,main])--The table (EMPLOYEE) is already in the database, and wont be created.
+[EL Finest]: query: 2013-10-14 21:46:01.623--ServerSession(18450577)--Thread(Thread[main,5,main])--Execute query DataModifyQuery(sql="CREATE TABLE PHONE (ID INTEGER NOT NULL, NUMBER VARCHAR(255), TYPE VARCHAR(255), OWNER_ID BIGINT, PRIMARY KEY (ID))")
+[EL Finest]: connection: 2013-10-14 21:46:01.623--ServerSession(18450577)--Connection(13878877)--Thread(Thread[main,5,main])--Connection acquired from connection pool [default].
+[EL Fine]: sql: 2013-10-14 21:46:01.623--ServerSession(18450577)--Connection(13878877)--Thread(Thread[main,5,main])--CREATE TABLE PHONE (ID INTEGER NOT NULL, NUMBER VARCHAR(255), TYPE VARCHAR(255), OWNER_ID BIGINT, PRIMARY KEY (ID))
+[EL Finest]: connection: 2013-10-14 21:46:01.635--ServerSession(18450577)--Connection(13878877)--Thread(Thread[main,5,main])--Connection released to connection pool [default].
+[EL Finest]: ddl: 2013-10-14 21:46:01.635--Thread(Thread[main,5,main])--The table (PHONE) is created.
+[EL Finest]: query: 2013-10-14 21:46:01.635--ServerSession(18450577)--Thread(Thread[main,5,main])--Execute query DataModifyQuery(sql="CREATE TABLE DEPARTMENT (ID INTEGER NOT NULL, NAME VARCHAR(255), PRIMARY KEY (ID))")
+[EL Finest]: connection: 2013-10-14 21:46:01.635--ServerSession(18450577)--Connection(13878877)--Thread(Thread[main,5,main])--Connection acquired from connection pool [default].
+[EL Fine]: sql: 2013-10-14 21:46:01.635--ServerSession(18450577)--Connection(13878877)--Thread(Thread[main,5,main])--CREATE TABLE DEPARTMENT (ID INTEGER NOT NULL, NAME VARCHAR(255), PRIMARY KEY (ID))
+[EL Finest]: connection: 2013-10-14 21:46:01.645--ServerSession(18450577)--Connection(13878877)--Thread(Thread[main,5,main])--Connection released to connection pool [default].
+[EL Finest]: ddl: 2013-10-14 21:46:01.645--Thread(Thread[main,5,main])--The table (DEPARTMENT) is created.
+[EL Finest]: query: 2013-10-14 21:46:01.645--ServerSession(18450577)--Thread(Thread[main,5,main])--Execute query DataModifyQuery(sql="CREATE TABLE EMPLOYEE_PROJECT (Employee_ID BIGINT NOT NULL, projects_ID INTEGER NOT NULL, PRIMARY KEY (Employee_ID, projects_ID))")
+[EL Finest]: connection: 2013-10-14 21:46:01.645--ServerSession(18450577)--Connection(13878877)--Thread(Thread[main,5,main])--Connection acquired from connection pool [default].
+[EL Fine]: sql: 2013-10-14 21:46:01.645--ServerSession(18450577)--Connection(13878877)--Thread(Thread[main,5,main])--CREATE TABLE EMPLOYEE_PROJECT (Employee_ID BIGINT NOT NULL, projects_ID INTEGER NOT NULL, PRIMARY KEY (Employee_ID, projects_ID))
+[EL Finest]: connection: 2013-10-14 21:46:01.654--ServerSession(18450577)--Connection(13878877)--Thread(Thread[main,5,main])--Connection released to connection pool [default].
+[EL Finest]: ddl: 2013-10-14 21:46:01.655--Thread(Thread[main,5,main])--The table (EMPLOYEE_PROJECT) is created.
+[EL Finest]: query: 2013-10-14 21:46:01.655--ServerSession(18450577)--Thread(Thread[main,5,main])--Execute query DataModifyQuery(sql="CREATE TABLE PROJECT_EMPLOYEE (Project_ID INTEGER NOT NULL, employees_ID BIGINT NOT NULL, PRIMARY KEY (Project_ID, employees_ID))")
+[EL Finest]: connection: 2013-10-14 21:46:01.655--ServerSession(18450577)--Connection(13878877)--Thread(Thread[main,5,main])--Connection acquired from connection pool [default].
+[EL Fine]: sql: 2013-10-14 21:46:01.655--ServerSession(18450577)--Connection(13878877)--Thread(Thread[main,5,main])--CREATE TABLE PROJECT_EMPLOYEE (Project_ID INTEGER NOT NULL, employees_ID BIGINT NOT NULL, PRIMARY KEY (Project_ID, employees_ID))
+[EL Finest]: connection: 2013-10-14 21:46:01.664--ServerSession(18450577)--Connection(13878877)--Thread(Thread[main,5,main])--Connection released to connection pool [default].
+[EL Finest]: ddl: 2013-10-14 21:46:01.665--Thread(Thread[main,5,main])--The table (PROJECT_EMPLOYEE) is created.
+[EL Finest]: query: 2013-10-14 21:46:01.665--ServerSession(18450577)--Thread(Thread[main,5,main])--Execute query DataModifyQuery(sql="ALTER TABLE EMPLOYEE ADD CONSTRAINT EMPLOYEEMANAGER_ID FOREIGN KEY (MANAGER_ID) REFERENCES EMPLOYEE (ID)")
+[EL Finest]: connection: 2013-10-14 21:46:01.665--ServerSession(18450577)--Connection(13878877)--Thread(Thread[main,5,main])--Connection acquired from connection pool [default].
+[EL Fine]: sql: 2013-10-14 21:46:01.665--ServerSession(18450577)--Connection(13878877)--Thread(Thread[main,5,main])--ALTER TABLE EMPLOYEE ADD CONSTRAINT EMPLOYEEMANAGER_ID FOREIGN KEY (MANAGER_ID) REFERENCES EMPLOYEE (ID)
+[EL Finest]: connection: 2013-10-14 21:46:01.674--ServerSession(18450577)--Connection(13878877)--Thread(Thread[main,5,main])--Connection released to connection pool [default].
+[EL Finest]: query: 2013-10-14 21:46:01.674--ServerSession(18450577)--Thread(Thread[main,5,main])--Execute query DataModifyQuery(sql="ALTER TABLE EMPLOYEE ADD CONSTRAINT EMPLOYEE_DEPT_ID FOREIGN KEY (DEPT_ID) REFERENCES DEPARTMENT (ID)")
+[EL Finest]: connection: 2013-10-14 21:46:01.674--ServerSession(18450577)--Connection(13878877)--Thread(Thread[main,5,main])--Connection acquired from connection pool [default].
+[EL Fine]: sql: 2013-10-14 21:46:01.674--ServerSession(18450577)--Connection(13878877)--Thread(Thread[main,5,main])--ALTER TABLE EMPLOYEE ADD CONSTRAINT EMPLOYEE_DEPT_ID FOREIGN KEY (DEPT_ID) REFERENCES DEPARTMENT (ID)
+[EL Finest]: connection: 2013-10-14 21:46:01.683--ServerSession(18450577)--Connection(13878877)--Thread(Thread[main,5,main])--Connection released to connection pool [default].
+[EL Finest]: query: 2013-10-14 21:46:01.683--ServerSession(18450577)--Thread(Thread[main,5,main])--Execute query DataModifyQuery(sql="ALTER TABLE PHONE ADD CONSTRAINT FK_PHONE_OWNER_ID FOREIGN KEY (OWNER_ID) REFERENCES EMPLOYEE (ID)")
+[EL Finest]: connection: 2013-10-14 21:46:01.684--ServerSession(18450577)--Connection(13878877)--Thread(Thread[main,5,main])--Connection acquired from connection pool [default].
+[EL Fine]: sql: 2013-10-14 21:46:01.684--ServerSession(18450577)--Connection(13878877)--Thread(Thread[main,5,main])--ALTER TABLE PHONE ADD CONSTRAINT FK_PHONE_OWNER_ID FOREIGN KEY (OWNER_ID) REFERENCES EMPLOYEE (ID)
+[EL Finest]: connection: 2013-10-14 21:46:01.694--ServerSession(18450577)--Connection(13878877)--Thread(Thread[main,5,main])--Connection released to connection pool [default].
+[EL Finest]: query: 2013-10-14 21:46:01.694--ServerSession(18450577)--Thread(Thread[main,5,main])--Execute query DataModifyQuery(sql="ALTER TABLE EMPLOYEE_PROJECT ADD CONSTRAINT MPLYPROJECTmplyeID FOREIGN KEY (Employee_ID) REFERENCES EMPLOYEE (ID)")
+[EL Finest]: connection: 2013-10-14 21:46:01.694--ServerSession(18450577)--Connection(13878877)--Thread(Thread[main,5,main])--Connection acquired from connection pool [default].
+[EL Fine]: sql: 2013-10-14 21:46:01.694--ServerSession(18450577)--Connection(13878877)--Thread(Thread[main,5,main])--ALTER TABLE EMPLOYEE_PROJECT ADD CONSTRAINT MPLYPROJECTmplyeID FOREIGN KEY (Employee_ID) REFERENCES EMPLOYEE (ID)
+[EL Finest]: connection: 2013-10-14 21:46:01.704--ServerSession(18450577)--Connection(13878877)--Thread(Thread[main,5,main])--Connection released to connection pool [default].
+[EL Finest]: query: 2013-10-14 21:46:01.704--ServerSession(18450577)--Thread(Thread[main,5,main])--Execute query DataModifyQuery(sql="ALTER TABLE EMPLOYEE_PROJECT ADD CONSTRAINT MPLYPROJECTprjctsD FOREIGN KEY (projects_ID) REFERENCES PROJECT (ID)")
+[EL Finest]: connection: 2013-10-14 21:46:01.704--ServerSession(18450577)--Connection(13878877)--Thread(Thread[main,5,main])--Connection acquired from connection pool [default].
+[EL Fine]: sql: 2013-10-14 21:46:01.704--ServerSession(18450577)--Connection(13878877)--Thread(Thread[main,5,main])--ALTER TABLE EMPLOYEE_PROJECT ADD CONSTRAINT MPLYPROJECTprjctsD FOREIGN KEY (projects_ID) REFERENCES PROJECT (ID)
+[EL Finest]: connection: 2013-10-14 21:46:01.714--ServerSession(18450577)--Connection(13878877)--Thread(Thread[main,5,main])--Connection released to connection pool [default].
+[EL Finest]: query: 2013-10-14 21:46:01.714--ServerSession(18450577)--Thread(Thread[main,5,main])--Execute query DataModifyQuery(sql="ALTER TABLE PROJECT_EMPLOYEE ADD CONSTRAINT PRJCTMPLOYEEPrjctD FOREIGN KEY (Project_ID) REFERENCES PROJECT (ID)")
+[EL Finest]: connection: 2013-10-14 21:46:01.714--ServerSession(18450577)--Connection(13878877)--Thread(Thread[main,5,main])--Connection acquired from connection pool [default].
+[EL Fine]: sql: 2013-10-14 21:46:01.714--ServerSession(18450577)--Connection(13878877)--Thread(Thread[main,5,main])--ALTER TABLE PROJECT_EMPLOYEE ADD CONSTRAINT PRJCTMPLOYEEPrjctD FOREIGN KEY (Project_ID) REFERENCES PROJECT (ID)
+[EL Finest]: connection: 2013-10-14 21:46:01.724--ServerSession(18450577)--Connection(13878877)--Thread(Thread[main,5,main])--Connection released to connection pool [default].
+[EL Finest]: query: 2013-10-14 21:46:01.724--ServerSession(18450577)--Thread(Thread[main,5,main])--Execute query DataModifyQuery(sql="ALTER TABLE PROJECT_EMPLOYEE ADD CONSTRAINT PRJCTMPLOYEEmplysD FOREIGN KEY (employees_ID) REFERENCES EMPLOYEE (ID)")
+[EL Finest]: connection: 2013-10-14 21:46:01.724--ServerSession(18450577)--Connection(13878877)--Thread(Thread[main,5,main])--Connection acquired from connection pool [default].
+[EL Fine]: sql: 2013-10-14 21:46:01.724--ServerSession(18450577)--Connection(13878877)--Thread(Thread[main,5,main])--ALTER TABLE PROJECT_EMPLOYEE ADD CONSTRAINT PRJCTMPLOYEEmplysD FOREIGN KEY (employees_ID) REFERENCES EMPLOYEE (ID)
+[EL Finest]: connection: 2013-10-14 21:46:01.734--ServerSession(18450577)--Connection(13878877)--Thread(Thread[main,5,main])--Connection released to connection pool [default].
+[EL Fine]: sql: 2013-10-14 21:46:01.735--ServerSession(18450577)--Connection(13878877)--SELECT SEQ_NAME FROM SEQUENCE WHERE SEQ_NAME <> SEQ_NAME
+[EL Finest]: query: 2013-10-14 21:46:01.736--ServerSession(18450577)--Thread(Thread[main,5,main])--Execute query DataModifyQuery(sql="DELETE FROM SEQUENCE WHERE SEQ_NAME = 'SEQ_GEN'")
+[EL Finest]: connection: 2013-10-14 21:46:01.736--ServerSession(18450577)--Connection(13878877)--Thread(Thread[main,5,main])--Connection acquired from connection pool [default].
+[EL Fine]: sql: 2013-10-14 21:46:01.737--ServerSession(18450577)--Connection(13878877)--Thread(Thread[main,5,main])--DELETE FROM SEQUENCE WHERE SEQ_NAME = SEQ_GEN
+[EL Finest]: connection: 2013-10-14 21:46:01.749--ServerSession(18450577)--Connection(13878877)--Thread(Thread[main,5,main])--Connection released to connection pool [default].
+[EL Finest]: query: 2013-10-14 21:46:01.75--ServerSession(18450577)--Thread(Thread[main,5,main])--Execute query DataReadQuery(sql="SELECT * FROM SEQUENCE WHERE SEQ_NAME = 'SEQ_GEN'")
+[EL Finest]: connection: 2013-10-14 21:46:01.75--ServerSession(18450577)--Connection(13878877)--Thread(Thread[main,5,main])--Connection acquired from connection pool [default].
+[EL Fine]: sql: 2013-10-14 21:46:01.75--ServerSession(18450577)--Connection(13878877)--Thread(Thread[main,5,main])--SELECT * FROM SEQUENCE WHERE SEQ_NAME = SEQ_GEN
+[EL Finest]: connection: 2013-10-14 21:46:01.751--ServerSession(18450577)--Connection(13878877)--Thread(Thread[main,5,main])--Connection released to connection pool [default].
+[EL Finest]: query: 2013-10-14 21:46:01.751--ServerSession(18450577)--Thread(Thread[main,5,main])--Execute query DataModifyQuery(sql="INSERT INTO SEQUENCE(SEQ_NAME, SEQ_COUNT) values ('SEQ_GEN', 0)")
+[EL Finest]: connection: 2013-10-14 21:46:01.751--ServerSession(18450577)--Connection(13878877)--Thread(Thread[main,5,main])--Connection acquired from connection pool [default].
+[EL Fine]: sql: 2013-10-14 21:46:01.751--ServerSession(18450577)--Connection(13878877)--Thread(Thread[main,5,main])--INSERT INTO SEQUENCE(SEQ_NAME, SEQ_COUNT) values (SEQ_GEN, 0)
+[EL Finest]: connection: 2013-10-14 21:46:01.753--ServerSession(18450577)--Connection(13878877)--Thread(Thread[main,5,main])--Connection released to connection pool [default].
+[EL Finer]: metamodel: 2013-10-14 21:46:01.765--ServerSession(18450577)--Thread(Thread[main,5,main])--Canonical Metamodel class [jpacertjpa20chap8.entities.Employee_] found and instantiated during initialization.
+[EL Finer]: metamodel: 2013-10-14 21:46:01.766--ServerSession(18450577)--Thread(Thread[main,5,main])--Canonical Metamodel class [jpacertjpa20chap8.entities.DesignProject_] found and instantiated during initialization.
+[EL Finer]: metamodel: 2013-10-14 21:46:01.766--ServerSession(18450577)--Thread(Thread[main,5,main])--Canonical Metamodel class [jpacertjpa20chap8.entities.Department_] found and instantiated during initialization.
+[EL Finer]: metamodel: 2013-10-14 21:46:01.767--ServerSession(18450577)--Thread(Thread[main,5,main])--Canonical Metamodel class [jpacertjpa20chap8.entities.Phone_] found and instantiated during initialization.
+[EL Finer]: metamodel: 2013-10-14 21:46:01.767--ServerSession(18450577)--Thread(Thread[main,5,main])--Canonical Metamodel class [jpacertjpa20chap8.entities.Project_] found and instantiated during initialization.
+[EL Finer]: metamodel: 2013-10-14 21:46:01.768--ServerSession(18450577)--Thread(Thread[main,5,main])--Canonical Metamodel class [jpacertjpa20chap8.entities.Address_] found and instantiated during initialization.
+[EL Finer]: metamodel: 2013-10-14 21:46:01.768--ServerSession(18450577)--Thread(Thread[main,5,main])--Canonical Metamodel class [jpacertjpa20chap8.entities.QualityProject_] found and instantiated during initialization.
+[EL Finest]: jpa: 2013-10-14 21:46:01.768--ServerSession(18450577)--Thread(Thread[main,5,main])--End deploying Persistence Unit JPACertJPA20Chap8PU; session file:/C:/Users/dickd/Documents/NetBeansProjects/JPACertJPA20Chap8/build/classes/_JPACertJPA20Chap8PU; state Deployed; factoryCount 1
+[EL Finer]: connection: 2013-10-14 21:46:01.78--ServerSession(18450577)--Thread(Thread[main,5,main])--client acquired: 27378735
+[EL Finer]: transaction: 2013-10-14 21:46:01.786--ClientSession(27378735)--Thread(Thread[main,5,main])--acquire unit of work: 20263497
+[EL Finest]: transaction: 2013-10-14 21:46:01.786--UnitOfWork(20263497)--Thread(Thread[main,5,main])--persist() operation called on: jpacertjpa20chap8.entities.Department@1786286.
+[EL Finest]: connection: 2013-10-14 21:46:01.787--ServerSession(18450577)--Connection(13878877)--Thread(Thread[main,5,main])--Connection acquired from connection pool [default].
+[EL Finer]: transaction: 2013-10-14 21:46:01.787--ClientSession(27378735)--Connection(13878877)--Thread(Thread[main,5,main])--begin transaction
+[EL Finest]: query: 2013-10-14 21:46:01.787--ClientSession(27378735)--Thread(Thread[main,5,main])--Execute query DataModifyQuery(name="SEQUENCE" sql="UPDATE SEQUENCE SET SEQ_COUNT = SEQ_COUNT + #PREALLOC_SIZE WHERE SEQ_NAME = #SEQ_NAME")
+[EL Fine]: sql: 2013-10-14 21:46:01.788--ClientSession(27378735)--Connection(13878877)--Thread(Thread[main,5,main])--UPDATE SEQUENCE SET SEQ_COUNT = SEQ_COUNT + ? WHERE SEQ_NAME = ?
+	bind => [50, SEQ_GEN]
+[EL Finest]: query: 2013-10-14 21:46:01.791--ClientSession(27378735)--Thread(Thread[main,5,main])--Execute query ValueReadQuery(name="SEQUENCE" sql="SELECT SEQ_COUNT FROM SEQUENCE WHERE SEQ_NAME = #SEQ_NAME")
+[EL Fine]: sql: 2013-10-14 21:46:01.791--ClientSession(27378735)--Connection(13878877)--Thread(Thread[main,5,main])--SELECT SEQ_COUNT FROM SEQUENCE WHERE SEQ_NAME = ?
+	bind => [SEQ_GEN]
+[EL Finest]: sequencing: 2013-10-14 21:46:01.793--ClientSession(27378735)--Connection(13878877)--Thread(Thread[main,5,main])--local sequencing preallocation for SEQ_GEN: objects: 50 , first: 1, last: 50
+[EL Finer]: transaction: 2013-10-14 21:46:01.794--ClientSession(27378735)--Connection(13878877)--Thread(Thread[main,5,main])--commit transaction
+[EL Finest]: sequencing: 2013-10-14 21:46:01.795--ServerSession(18450577)--Connection(13878877)--Thread(Thread[main,5,main])--local sequencing preallocation is copied to preallocation after transaction commit
+[EL Finest]: connection: 2013-10-14 21:46:01.795--ServerSession(18450577)--Connection(13878877)--Thread(Thread[main,5,main])--Connection released to connection pool [default].
+[EL Finest]: sequencing: 2013-10-14 21:46:01.795--UnitOfWork(20263497)--Thread(Thread[main,5,main])--assign sequence to the object (1 -> jpacertjpa20chap8.entities.Department@1786286)
+[EL Finest]: transaction: 2013-10-14 21:46:01.796--UnitOfWork(20263497)--Thread(Thread[main,5,main])--persist() operation called on: jpacertjpa20chap8.entities.DesignProject@943dc4.
+[EL Finest]: sequencing: 2013-10-14 21:46:01.797--UnitOfWork(20263497)--Thread(Thread[main,5,main])--assign sequence to the object (2 -> jpacertjpa20chap8.entities.DesignProject@943dc4)
+[EL Finest]: transaction: 2013-10-14 21:46:01.797--UnitOfWork(20263497)--Thread(Thread[main,5,main])--persist() operation called on: jpacertjpa20chap8.entities.Employee@b533b8.
+[EL Finest]: sequencing: 2013-10-14 21:46:01.797--UnitOfWork(20263497)--Thread(Thread[main,5,main])--assign sequence to the object (3 -> jpacertjpa20chap8.entities.Employee@b533b8)
+[EL Finest]: transaction: 2013-10-14 21:46:01.797--UnitOfWork(20263497)--Thread(Thread[main,5,main])--persist() operation called on: jpacertjpa20chap8.entities.Phone@d67067.
+[EL Finest]: sequencing: 2013-10-14 21:46:01.797--UnitOfWork(20263497)--Thread(Thread[main,5,main])--assign sequence to the object (4 -> jpacertjpa20chap8.entities.Phone@d67067)
+[EL Finer]: transaction: 2013-10-14 21:46:01.798--UnitOfWork(20263497)--Thread(Thread[main,5,main])--begin unit of work commit
+[EL Finest]: query: 2013-10-14 21:46:01.801--UnitOfWork(20263497)--Thread(Thread[main,5,main])--Execute query InsertObjectQuery(jpacertjpa20chap8.entities.Department@1786286)
+[EL Finest]: connection: 2013-10-14 21:46:01.802--ServerSession(18450577)--Connection(13878877)--Thread(Thread[main,5,main])--Connection acquired from connection pool [default].
+[EL Finer]: transaction: 2013-10-14 21:46:01.802--ClientSession(27378735)--Connection(13878877)--Thread(Thread[main,5,main])--begin transaction
+[EL Fine]: sql: 2013-10-14 21:46:01.802--ClientSession(27378735)--Connection(13878877)--Thread(Thread[main,5,main])--INSERT INTO DEPARTMENT (ID, NAME) VALUES (?, ?)
+	bind => [1, Development]
+[EL Finest]: query: 2013-10-14 21:46:01.806--UnitOfWork(20263497)--Thread(Thread[main,5,main])--Execute query InsertObjectQuery(jpacertjpa20chap8.entities.DesignProject@943dc4)
+[EL Fine]: sql: 2013-10-14 21:46:01.806--ClientSession(27378735)--Connection(13878877)--Thread(Thread[main,5,main])--INSERT INTO PROJECT (ID, NAME, DTYPE) VALUES (?, ?, ?)
+	bind => [2, Pearl, DesignProject]
+[EL Finest]: query: 2013-10-14 21:46:01.809--UnitOfWork(20263497)--Thread(Thread[main,5,main])--Execute query InsertObjectQuery(jpacertjpa20chap8.entities.Employee@b533b8)
+[EL Fine]: sql: 2013-10-14 21:46:01.81--ClientSession(27378735)--Connection(13878877)--Thread(Thread[main,5,main])--INSERT INTO EMPLOYEE (ID, NAME, SALARY, ID, CITY, STATE, STREET, ZIP, DEPT_ID, MANAGER_ID) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+	bind => [0, dick, 555, 0, vleuten, utrecht, zilverschoonlaan, 3452AA, 1, null]
+[EL Fine]: sql: 2013-10-14 21:46:01.812--ClientSession(27378735)--Thread(Thread[main,5,main])--VALUES(1)
+[EL Warning]: 2013-10-14 21:46:01.813--UnitOfWork(20263497)--Thread(Thread[main,5,main])--Local Exception Stack: 
+Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.0.v20130507-3faac2b): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: java.sql.SQLSyntaxErrorException: Column name 'ID' appears more than once times in the column list of an INSERT statement. 
+Error Code: -1
+Call: INSERT INTO EMPLOYEE (ID, NAME, SALARY, ID, CITY, STATE, STREET, ZIP, DEPT_ID, MANAGER_ID) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+	bind => [0, dick, 555, 0, vleuten, utrecht, zilverschoonlaan, 3452AA, 1, null]
+Query: InsertObjectQuery(jpacertjpa20chap8.entities.Employee@b533b8)
+	at org.eclipse.persistence.exceptions.DatabaseException.sqlException(DatabaseException.java:340)
+	at org.eclipse.persistence.internal.databaseaccess.DatabaseAccessor.basicExecuteCall(DatabaseAccessor.java:679)
+	at org.eclipse.persistence.internal.databaseaccess.DatabaseAccessor.executeCall(DatabaseAccessor.java:558)
+	at org.eclipse.persistence.internal.sessions.AbstractSession.basicExecuteCall(AbstractSession.java:1995)
+	at org.eclipse.persistence.sessions.server.ClientSession.executeCall(ClientSession.java:296)
+	at org.eclipse.persistence.internal.queries.DatasourceCallQueryMechanism.executeCall(DatasourceCallQueryMechanism.java:242)
+	at org.eclipse.persistence.internal.queries.DatasourceCallQueryMechanism.executeCall(DatasourceCallQueryMechanism.java:228)
+	at org.eclipse.persistence.internal.queries.DatasourceCallQueryMechanism.insertObject(DatasourceCallQueryMechanism.java:377)
+	at org.eclipse.persistence.internal.queries.StatementQueryMechanism.insertObject(StatementQueryMechanism.java:165)
+	at org.eclipse.persistence.internal.queries.StatementQueryMechanism.insertObject(StatementQueryMechanism.java:180)
+	at org.eclipse.persistence.internal.queries.DatabaseQueryMechanism.insertObjectForWrite(DatabaseQueryMechanism.java:485)
+	at org.eclipse.persistence.queries.InsertObjectQuery.executeCommit(InsertObjectQuery.java:80)
+	at org.eclipse.persistence.queries.InsertObjectQuery.executeCommitWithChangeSet(InsertObjectQuery.java:90)
+	at org.eclipse.persistence.internal.queries.DatabaseQueryMechanism.executeWriteWithChangeSet(DatabaseQueryMechanism.java:300)
+	at org.eclipse.persistence.queries.WriteObjectQuery.executeDatabaseQuery(WriteObjectQuery.java:58)
+	at org.eclipse.persistence.queries.DatabaseQuery.execute(DatabaseQuery.java:899)
+	at org.eclipse.persistence.queries.DatabaseQuery.executeInUnitOfWork(DatabaseQuery.java:798)
+	at org.eclipse.persistence.queries.ObjectLevelModifyQuery.executeInUnitOfWorkObjectLevelModifyQuery(ObjectLevelModifyQuery.java:108)
+	at org.eclipse.persistence.queries.ObjectLevelModifyQuery.executeInUnitOfWork(ObjectLevelModifyQuery.java:85)
+	at org.eclipse.persistence.internal.sessions.UnitOfWorkImpl.internalExecuteQuery(UnitOfWorkImpl.java:2894)
+	at org.eclipse.persistence.internal.sessions.AbstractSession.executeQuery(AbstractSession.java:1797)
+	at org.eclipse.persistence.internal.sessions.AbstractSession.executeQuery(AbstractSession.java:1779)
+	at org.eclipse.persistence.internal.sessions.AbstractSession.executeQuery(AbstractSession.java:1730)
+	at org.eclipse.persistence.internal.sessions.CommitManager.commitNewObjectsForClassWithChangeSet(CommitManager.java:226)
+	at org.eclipse.persistence.internal.sessions.CommitManager.commitAllObjectsForClassWithChangeSet(CommitManager.java:193)
+	at org.eclipse.persistence.internal.sessions.CommitManager.commitAllObjectsWithChangeSet(CommitManager.java:138)
+	at org.eclipse.persistence.internal.sessions.AbstractSession.writeAllObjectsWithChangeSet(AbstractSession.java:4200)
+	at org.eclipse.persistence.internal.sessions.UnitOfWorkImpl.commitToDatabase(UnitOfWorkImpl.java:1439)
+	at org.eclipse.persistence.internal.sessions.UnitOfWorkImpl.commitToDatabaseWithChangeSet(UnitOfWorkImpl.java:1529)
+	at org.eclipse.persistence.internal.sessions.RepeatableWriteUnitOfWork.commitRootUnitOfWork(RepeatableWriteUnitOfWork.java:277)
+	at org.eclipse.persistence.internal.sessions.UnitOfWorkImpl.commitAndResume(UnitOfWorkImpl.java:1167)
+	at org.eclipse.persistence.internal.jpa.transaction.EntityTransactionImpl.commit(EntityTransactionImpl.java:132)
+	at jpacertjpa20chap8.JPACertJPA20Chap8.main(JPACertJPA20Chap8.java:52)
+Caused by: java.sql.SQLSyntaxErrorException: Column name 'ID' appears more than once times in the column list of an INSERT statement. 
+	at org.apache.derby.client.am.SQLExceptionFactory40.getSQLException(Unknown Source)
+	at org.apache.derby.client.am.SqlException.getSQLException(Unknown Source)
+	at org.apache.derby.client.am.Connection.prepareStatement(Unknown Source)
+	at org.eclipse.persistence.internal.databaseaccess.DatabaseAccessor.prepareStatement(DatabaseAccessor.java:1551)
+	at org.eclipse.persistence.internal.databaseaccess.DatabaseAccessor.prepareStatement(DatabaseAccessor.java:1500)
+	at org.eclipse.persistence.internal.databaseaccess.DatabaseCall.prepareStatement(DatabaseCall.java:778)
+	at org.eclipse.persistence.internal.databaseaccess.DatabaseAccessor.basicExecuteCall(DatabaseAccessor.java:619)
+	... 31 more
+Caused by: org.apache.derby.client.am.SqlException: Column name 'ID' appears more than once times in the column list of an INSERT statement. 
+	at org.apache.derby.client.am.Statement.completeSqlca(Unknown Source)
+	at org.apache.derby.client.net.NetStatementReply.parsePrepareError(Unknown Source)
+	at org.apache.derby.client.net.NetStatementReply.parsePRPSQLSTTreply(Unknown Source)
+	at org.apache.derby.client.net.NetStatementReply.readPrepareDescribeOutput(Unknown Source)
+	at org.apache.derby.client.net.StatementReply.readPrepareDescribeOutput(Unknown Source)
+	at org.apache.derby.client.net.NetStatement.readPrepareDescribeOutput_(Unknown Source)
+	at org.apache.derby.client.am.Statement.readPrepareDescribeOutput(Unknown Source)
+	at org.apache.derby.client.am.PreparedStatement.readPrepareDescribeInputOutput(Unknown Source)
+	at org.apache.derby.client.am.PreparedStatement.flowPrepareDescribeInputOutput(Unknown Source)
+	at org.apache.derby.client.am.PreparedStatement.prepare(Unknown Source)
+	at org.apache.derby.client.am.Connection.prepareStatementX(Unknown Source)
+	... 36 more
+
+[EL Finer]: transaction: 2013-10-14 21:46:01.815--ClientSession(27378735)--Connection(13878877)--Thread(Thread[main,5,main])--rollback transaction
+[EL Finest]: connection: 2013-10-14 21:46:01.82--ServerSession(18450577)--Connection(13878877)--Thread(Thread[main,5,main])--Connection released to connection pool [default].
+[EL Finer]: transaction: 2013-10-14 21:46:01.82--UnitOfWork(20263497)--Thread(Thread[main,5,main])--release unit of work
+[EL Finer]: connection: 2013-10-14 21:46:01.82--ClientSession(27378735)--Thread(Thread[main,5,main])--client released
