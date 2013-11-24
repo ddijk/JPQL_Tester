@@ -2,6 +2,7 @@ package jpacertjpa20chap8.entities;
 
 import java.util.ArrayList;
 import java.util.List;
+
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
@@ -77,4 +78,11 @@ abstract public class Project
   {
     this.name = name;
   }
+
+  @Override
+  public String toString()
+  {
+    return name;
+  }
+
 }

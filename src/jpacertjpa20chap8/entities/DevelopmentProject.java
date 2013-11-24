@@ -4,13 +4,13 @@ import java.util.List;
 import javax.persistence.Entity;
 
 @Entity
-public class DesignProject extends Project
+public class DevelopmentProject extends Project
 {
-  public DesignProject()
+  public DevelopmentProject()
   {
   }
 
-  public DesignProject(String name)
+  public DevelopmentProject(String name)
   {
     super(name);
   }

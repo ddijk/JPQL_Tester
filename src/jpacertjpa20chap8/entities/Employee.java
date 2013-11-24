@@ -36,7 +36,6 @@ public class Employee
     this.name = name;
     this.address = address;
 
-
     this.dept = dept;
 
     this.salary = salary;
@@ -83,8 +82,8 @@ public class Employee
   }
 
   @Embedded
-  @AttributeOverride(name = "id", column =
-    @Column(name = "aid"))
+  @AttributeOverride(name = "id", column
+    = @Column(name = "aid"))
   public Address getAddress()
   {
     return address;
@@ -140,4 +139,11 @@ public class Employee
   {
     this.id = id;
   }
+
+  @Override
+  public String toString()
+  {
+    return name;
+  }
+
 }
