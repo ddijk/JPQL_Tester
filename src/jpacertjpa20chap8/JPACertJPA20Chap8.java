@@ -64,6 +64,8 @@ public class JPACertJPA20Chap8
     // projects
     em.persist(pearl);
     em.persist(cordoba);
+    em.persist(opal);
+    em.persist(sonar);
 
     // employees
     em.persist(dick);
